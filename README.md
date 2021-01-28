@@ -1,8 +1,8 @@
 # PythonCodingTest
 
-###Coding exercise:
+### Coding exercise:
 
-#####Write a Flask Web API with only 1 method called `ProcessPayment` that receives a request like this
+##### Write a Flask Web API with only 1 method called `ProcessPayment` that receives a request like this
 
     -CreditCardNumber (mandatory, string, it should be a valid credit card number)
     -CardHolder: (mandatory, string)
@@ -23,7 +23,7 @@
     -ExpensivePaymentGateway
     -CheapPaymentGateway.
 
-#####The payment gateway that should be used to process each payment follows the next set of business rules:
+##### The payment gateway that should be used to process each payment follows the next set of business rules:
 
     a)If the amount to be paid is less than £20, use CheapPaymentGateway.
     b)If the amount to be paid is £21-500, use ExpensivePaymentGateway if available. Otherwise, retry only once with CheapPaymentGateway.
