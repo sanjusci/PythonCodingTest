@@ -1,0 +1,71 @@
+{
+  "missing_key_credit_card": {
+    "CreditCardNumber": "4112323232345679",
+    "CardHolder": "Sanju",
+    "SecurityCode": "123",
+    "ExpirationDates": "2022/10/01"
+  },
+  "invalid_key_credit_card": {
+    "CreditCardNumber": "5112323232345679",
+    "CardHolder": "Sanju",
+    "SecurityCode": "123",
+    "ExpirationDates": "2022/10/01",
+    "Amoun": 10
+  },
+  "invalid_value_credit_card": {
+    "CreditCardNumber": "1112323232345672",
+    "CardHolder": "Sanju",
+    "SecurityCode": "123",
+    "ExpirationDate": "2022/10/01",
+    "Amount": 10
+  },
+  "expire_credit_card": {
+    "CreditCardNumber": "6112323232345467",
+    "CardHolder": "Sanju",
+    "SecurityCode": "123",
+    "ExpirationDate": "2020/12/30",
+    "Amount": 10
+  },
+  "invalid_security_code": {
+    "CreditCardNumber": "6112323232345467",
+    "CardHolder": "Sanju",
+    "SecurityCode": "12",
+    "ExpirationDate": "2022/12/30",
+    "Amount": 10
+  },
+  "invalid_amount": {
+    "CreditCardNumber": "6112323232345647",
+    "CardHolder": "Sanju",
+    "SecurityCode": "123",
+    "ExpirationDate": "2022/12/30",
+    "Amount": "10"
+  },
+  "negative_amount": {
+    "CreditCardNumber": "5112323232345647",
+    "CardHolder": "Sanju",
+    "SecurityCode": "123",
+    "ExpirationDate": "2022/12/30",
+    "Amount": -10
+  },
+  "valid_credit_card_1": {
+    "CreditCardNumber": "1234567890123456",
+    "CardHolder": "Sanju",
+    "SecurityCode": "123",
+    "ExpirationDate": "2022/12/30",
+    "Amount": 15.01
+  },
+  "valid_credit_card_2": {
+    "CreditCardNumber": "1234567890123456",
+    "CardHolder": "Sanju",
+    "SecurityCode": "123",
+    "ExpirationDate": "2022/12/30",
+    "Amount": 45.00
+  },
+  "valid_credit_card_3": {
+    "CreditCardNumber": "1234567890123456",
+    "CardHolder": "Sanju",
+    "SecurityCode": "123",
+    "ExpirationDate": "2022/12/30",
+    "Amount": 550.00
+  }
+}
