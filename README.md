@@ -75,8 +75,6 @@ cd smartview_flask
 export PYTHONPATH="$PYTHONPATH:."
 ```
 
-- [Create MySQL database](https://dev.mysql.com/doc/refman/5.7/en/creating-database.html)
-
 - Set environment variables -
 
 > If project is being run under `virtualenv` then environment variables can be set under `.env/bin/activate` file.

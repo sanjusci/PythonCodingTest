@@ -27,8 +27,8 @@ class PaymentRule(Enum):
 
 
 class PremiumPaymentGateway(BaseService):
-    def __init__(self, repeat=3):
-        super(PremiumPaymentGateway, self).__init__(repeat)
+    def __init__(self, retry=3):
+        super(PremiumPaymentGateway, self).__init__(retry)
         self.gateway_type = "PremiumPaymentGatway"
 
     def __repr__(self):
@@ -36,8 +36,8 @@ class PremiumPaymentGateway(BaseService):
 
 
 class ExpensivePaymentGateway(BaseService):
-    def __init__(self, repeat=1):
-        super(ExpensivePaymentGateway, self).__init__(repeat)
+    def __init__(self, retry=1):
+        super(ExpensivePaymentGateway, self).__init__(retry)
         self.gateway_type = "ExpensivePaymentGateway"
 
     def __repr__(self):
@@ -45,8 +45,8 @@ class ExpensivePaymentGateway(BaseService):
 
 
 class CheapPaymentGateway(BaseService):
-    def __init__(self, repeat=0):
-        super(CheapPaymentGateway, self).__init__(repeat)
+    def __init__(self, retry=0):
+        super(CheapPaymentGateway, self).__init__(retry)
         self.gateway_type = "CheapPaymentGateway"
 
     def __repr__(self):

@@ -1,4 +1,4 @@
-from services.payment import CreditCard
+from services.creditcard import CreditCard
 from services.external import ExternalService
 
 

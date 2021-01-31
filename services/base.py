@@ -8,7 +8,6 @@ class BaseService(object):
 
     def __repr__(self):
         return f"{self.__class__.__name__}"
-        # return "<{}>".format("BaseService")
 
     def connect(self, gateway_type=None, details=None):
         if gateway_type is not None:
@@ -27,7 +26,7 @@ class BaseService(object):
         while self.retry + 1 > 0:
             if self.connect(gateway_type, user_details):
                 Logger.info(
-                    "payment of {} in gateway_type {} sucessful".format(
+                    "payment of {} in gateway_type {} successful".format(
                         amount, self.gateway_type
                     )
                 )
